@@ -15,10 +15,10 @@ public class JSliderFunctionMax extends JPanel implements ChangeListener
     {
         JSlider slider = new JSlider();
         slider.setMinimum(0);
-        slider.setMaximum(20);
+        slider.setMaximum(4);
         slider.setPaintTicks(true);
         slider.setPaintLabels(true);
-        slider.setMajorTickSpacing(5);
+         slider.setMajorTickSpacing(2);
         slider.setMinorTickSpacing(1);
         add(slider);
         setJSlider(slider);

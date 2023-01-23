@@ -1,6 +1,5 @@
 package ru.SOHNick;
 import Convector.src.ru.Nikita.graphics.Convector;
-import Graphics.src.ru.sohick.GraphicsPanel;
 import Graphics.src.ru.sohick.Painter;
 
 import java.awt.*;
@@ -32,8 +31,7 @@ public class FunctionPainter2 implements Painter
         this.xMax = a.xMax;
         this.yMin = a.yMin;
         this.yMax = a.yMax;
-        int width = a.width;
-        int height = a.height;
+
         if(stateFunction)
         {
             drawFunction(g2);

@@ -12,12 +12,11 @@ public class JSliderFunctionMin extends JPanel implements ChangeListener
     public JSliderFunctionMin()
     {
         JSlider slider = new JSlider();
-        slider.setMinimum(-20);
+        slider.setMinimum(-4);
         slider.setMaximum(0);
         slider.setPaintTicks(true);
         slider.setPaintLabels(true);
-        //slider.setBackground();
-        slider.setMajorTickSpacing(5);
+        slider.setMajorTickSpacing(2);
         slider.setMinorTickSpacing(1);
         slider.setInverted(false);
         slider.setValue(-20);

@@ -357,7 +357,7 @@ public class MainGraphics extends JFrame
     }
     public static Double FXT(Double t)
     {
-        return (Math.asin(Math.sin(t)));
+        return (Math.asin(Math.sin(t))); //Math.asin(Math.sin(t)
     }
     public static Double FYT(Double t)
     {
