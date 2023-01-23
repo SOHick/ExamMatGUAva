@@ -48,16 +48,4 @@ public class JSliderFunctionMin extends JPanel implements ChangeListener
     public void stateChanged(ChangeEvent e) {
         FunctionPainter.ValueMinParametric = jSlider.getValue();
     }
-
-    public void mouseWheelMoved(MouseWheelEvent e) {
-        int notches = e.getWheelRotation();
-        if (notches < 0) {
-            System.out.println("Mouse wheel moved UP " + -notches + " notch(es)");
-            jSlider.setValue(jSlider.getValue() + 1);
-        } else
-        if (notches > 0) {
-            System.out.println("Mouse wheel moved DOWN " + notches + " notch(es)");
-            jSlider.setValue(jSlider.getValue() - 1);
-        }
-    }
 }

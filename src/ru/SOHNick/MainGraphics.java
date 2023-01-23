@@ -133,9 +133,6 @@ public class MainGraphics extends JFrame
                         )
                 .addGap(8)
         );
-
-
-
         gl.setVerticalGroup(gl.createSequentialGroup()
                 .addGap(8)
                         .addGroup(gl.createSequentialGroup()
@@ -211,8 +208,8 @@ public class MainGraphics extends JFrame
         JLabel lbl3 = new JLabel("X max:");
         JLabel lbl4 = new JLabel("Y max:");
         JLabel lbl5 = new JLabel("Цвет узлов(точек) f(x):");
-        JLabel lbl6 = new JLabel("Функция f(x):");
-        JLabel lbl7 = new JLabel("Параметрическая функция f(t):");
+        JLabel lbl6 = new JLabel("Функция f(x)=1+(x+2)^2:");
+        JLabel lbl7 = new JLabel("Параметрическая функция(x=arcsin(sin(t)),y=arccos(cos(t))) f(t):");
         js1.addChangeListener(e -> {
             nmxMax.setMinimum((Double)nmxMin.getNumber() + 2 * (Double)nmxMax.getStepSize());
             a.SetXEdges((Double) js1.getValue(),(Double) js3.getValue());

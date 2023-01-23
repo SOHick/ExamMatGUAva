@@ -23,12 +23,6 @@ public class Convector
     }
     public double getXDen() {return (width) / (xMax-xMin);}
     public double getYDen() {return (height)/ (yMax-yMin);}
-    public int xDistCrt2Scr(double x1, double x2){
-        return (int)(getXDen()*Math.abs(x1-x2));
-    }
-    public int yDistCrt2Scr(double y1, double y2){
-        return (int)(getYDen()*Math.abs(y1-y2));
-    }
     public int xCrt2Scr(double x)
     {
         int v = (int)(getXDen()*(x-xMin));

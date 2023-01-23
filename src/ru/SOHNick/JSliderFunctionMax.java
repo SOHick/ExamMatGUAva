@@ -3,6 +3,7 @@ package ru.SOHNick;
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseWheelEvent;
 
@@ -41,7 +42,6 @@ public class JSliderFunctionMax extends JPanel implements ChangeListener
     {
         this.jSlider = slider;
     }
-
 
     @Override
     public void stateChanged(ChangeEvent e) {
